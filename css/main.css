@@ -1,0 +1,166 @@
+
+body
+{
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+.container
+{
+    width: 75%;
+    margin: auto;
+}
+
+
+
+section
+{
+    background-image: url(../photos/pexels-photo-209831.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+} 
+
+body section  nav a .logo-type
+{
+    margin-left: 10px;
+}
+body section  nav a h1
+{
+    font-size: 30px;
+    margin: 0;
+}
+body section  nav a p
+{
+    font-size: 15px;
+    margin: 0;
+}
+
+
+
+
+
+nav ul  
+{
+    width: 60%;
+}
+
+nav .navbar-nav .nav-link
+{
+    color: #fff;
+    background-color: transparent;
+    border: 1px #fff solid;
+    border-radius: 50px;
+    margin: 0;
+}
+
+nav .navbar-nav .nav-link:hover
+{
+    background-color: rgb(34, 71, 86);
+}
+nav .navbar-nav .nav-item .active
+{
+    background-color:  rgb(34, 71, 86);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+.input-search 
+{
+    position: relative;
+}
+.input-search input
+{
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid rgb(34, 71, 86);
+    
+}
+.input-search .btan
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: rgb(34, 71, 86);
+    color: #fff;
+}
+
+
+
+.container .row h3
+{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+.container .row h4
+{
+    font-size: 80px;
+}
+
+
+
+.input-sub 
+{
+    width: 75%;
+    margin: auto;
+    position: relative;
+}
+.input-sub input
+{
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid rgb(34, 71, 86);
+    
+}
+.input-sub .bn
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    position: absolute;
+    right:5px;
+    top: 5px;
+    background-color: rgb(34, 71, 86)
+    
+}
+
+
+.icon i
+{
+    
+    color: #fff;
+    background-color: transparent;    
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: color 0.5s ease-in-out ;
+    border-color: 0.5s ease-in-out;
+    cursor: pointer;
+    margin: 5px;
+    transition: all .5s linear;
+}
+.icon i:hover
+{
+    background-color:rgb(34, 71, 86);
+    
+}
+
+
+
